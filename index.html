@@ -480,63 +480,113 @@
       <!-- offer-section -->
       <section class="my-5">
         <div class="max-w-6xl mx-auto">
-        <!-- text -->
-        <div class="mb-5">
-          <h1 class="text-4xl font-semibold text-btn-color">
-            Arrival & Offers
+          <!-- text -->
+          <div class="mb-5">
+            <h1 class="text-4xl font-semibold text-btn-color">
+              Arrival & Offers
+            </h1>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div
+              class="flex flex-row justify-between items-center card bg-[#115414] shadow-xl py-10 px-5"
+            >
+              <div>
+                <img
+                  src="./c2-assets/dawat-logo.png"
+                  alt="logo"
+                  class="rounded-xl"
+                />
+
+                <div class="card-body">
+                  <div class="card-actions">
+                    <button class="btn bg-[#63B76D] text-white">
+                      Cook Exotic Dishes
+                    </button>
+                  </div>
+                  <h3 class="text-2xl font-bold text-white text-nowrap">
+                    UP to 20% OFF
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <img class="w-full" src="./c2-assets/dawat-mock-up.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="flex flex-row justify-between items-center card bg-[#102861] shadow-xl py-10 px-5"
+            >
+              <div>
+                <img
+                  src="./c2-assets/india-gate-logo.png"
+                  alt="logo"
+                  class="rounded-xl"
+                />
+
+                <div class="card-body">
+                  <div class="card-actions">
+                    <button class="btn bg-[#2A4D97] text-white">
+                      World’s No.1 Rice
+                    </button>
+                  </div>
+                  <h3 class="text-2xl font-bold text-white">UP to 40% OFF</h3>
+                </div>
+              </div>
+              <div>
+                <img class="w-full" src="./c2-assets/india-gate-mock-up.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- vegetables-images -->
+      <section class="max-w-6xl mx-auto">
+        <div class="text-center my-10">
+          <h1 class="text-5xl font-semibold">
+            vegetables
+            <span class="text-btn-color">Images</span>
           </h1>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
-          <div
-            class="flex flex-row justify-between items-center card bg-[#115414] shadow-xl py-10 px-5"
-          >
-            <div>
-              <img
-                src="./c2-assets/dawat-logo.png"
-                alt="logo"
-                class="rounded-xl"
-              />
-
-              <div class="card-body">
-                <div class="card-actions">
-                  <button class="btn bg-[#63B76D] text-white">
-                    Cook Exotic Dishes
-                  </button>
-                </div>
-                <h3 class="text-2xl font-bold text-white text-nowrap">
-                  UP to 20% OFF
-                </h3>
-              </div>
-            </div>
-            <div>
-              <img src="./c2-assets/dawat-mock-up.png" alt="" />
+        <div class="carousel w-full bg-[#102861]">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="./c2-assets/hero-vegetables.png" class="w-full" />
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div
-            class="flex flex-row justify-between items-center card bg-[#102861] shadow-xl py-10 px-5"
-          >
-            <div>
-              <img
-                src="./c2-assets/india-gate-logo.png"
-                alt="logo"
-                class="rounded-xl"
-              />
-
-              <div class="card-body">
-                <div class="card-actions">
-                  <button class="btn bg-[#2A4D97] text-white">
-                    World’s No.1 Rice
-                  </button>
-                </div>
-                <h3 class="text-2xl font-bold text-white">UP to 40% OFF</h3>
-              </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./c2-assets/vegetable-offer.png" class="w-full" />
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
-            <div>
-              <img src="./c2-assets/india-gate-mock-up.png" alt="" />
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img src="./c2-assets/vegetable-busket.png" class="w-full" />
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img
+              src="./c2-assets/png-clipart-vegetables-vegetable-vegetarian-cuisine-cooking-food-health-vegetables-natural-foods-leaf-vegetable-thumbnail.png"
+              class="w-full"
+            />
+            <div
+              class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
         </div>
-      </div>
       </section>
     </main>
   </body>
