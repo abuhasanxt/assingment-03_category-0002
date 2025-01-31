@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>legal-solution</title>
+    <title>assingment-03_category-0002</title>
     <!-- google-font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,6 +28,7 @@
             colors: {
               clifford: "#da373d",
               "btn-color": "rgba(23, 152, 0, 1)",
+              "bg-color": "#EFEBE3",
             },
           },
         },
@@ -41,7 +42,7 @@
   </head>
   <body class="sora">
     <!-- header-section -->
-    <header class="container mx-auto bg-[#EFEBE3]">
+    <header class="container mx-auto bg-bg-color mb-10">
       <!-- navbar-section -->
       <nav>
         <div class="navbar">
@@ -128,7 +129,8 @@
           </h1>
           <p class="text-gray-400 p-4">
             Shop your daily essentials at unbeatable prices. From fresh produce
-            to pantry staples, we’ve got you covered every day!
+            to pantry <br />
+            staples, we’ve got you covered every day!
           </p>
         </div>
         <!-- images -->
@@ -137,5 +139,344 @@
         </div>
       </section>
     </header>
+    <!-- main-section -->
+    <main class="container mx-auto">
+      <!-- Services -->
+      <section class="max-w-6xl mx-auto">
+        <!-- text -->
+        <div class="mb-5">
+          <h1 class="text-4xl font-semibold text-btn-color">Services</h1>
+        </div>
+        <!-- card -->
+        <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <!-- card-1 -->
+          <div class="card bg-bg-color w-full shadow-xl">
+            <div class="avatar pt-7">
+              <div
+                class="ring-primary bg-white ring-offset-white w-24 rounded-full p-3 mx-auto"
+              >
+                <img src="./c2-assets/service.png" />
+              </div>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">24/7 Services !</h2>
+              <p class="text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card bg-bg-color w-full shadow-xl">
+            <div class="avatar pt-7">
+              <div
+                class="ring-primary bg-white ring-offset-white w-24 rounded-full p-3 mx-auto"
+              >
+                <img src="./c2-assets/delivery.png" />
+              </div>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Fast Delivery</h2>
+              <p class="text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="card bg-bg-color w-full shadow-xl">
+            <div class="avatar pt-7">
+              <div
+                class="ring-primary bg-white ring-offset-white w-24 rounded-full p-3 mx-auto"
+              >
+                <img src="./c2-assets/healthy.png" />
+              </div>
+            </div>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Healthy Products</h2>
+              <p class="text-gray-400">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- popular-section -->
+      <section class="my-10 bg-base-200">
+        <div class="max-w-6xl mx-auto py-5">
+          <!-- text -->
+          <div>
+            <h1 class="text-xl font-semibold text-btn-color pl-3 lg:text-4xl">
+              Popular Product
+            </h1>
+          </div>
+          <!-- hero-section -->
+          <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <div
+                class="relative card bg-btn-color w-full shadow-xl pt-5 pb-40"
+              >
+                <!-- banner-section -->
+                <!-- text -->
+                <div class="card-body space-y-4">
+                  <h2 class="card-title text-white">30% off</h2>
+                  <p class="text-black">
+                    Discover a world off treats, toys and <br />
+                    essentials handpicked for
+                  </p>
+                  <button class="btn bg-white text-black w-3/7">Buy Now</button>
+                </div>
+                <!-- images -->
+                <div class="absolute bottom-0 right-15 z-10">
+                  <img
+                    class="w-full"
+                    src="./c2-assets/vegetable-offer.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- card -->
+              <div class="grid grid-cols-2 gap-5 p-2 lg:grid-cols-3">
+                <!-- card-1 -->
+                <div
+                  class="flex p-4 flex-row items-center gap-4 card bg-white w-full shadow-xl"
+                >
+                  <!-- images -->
+                  <div>
+                    <img
+                      class="bg-gray-100 shadow-xl w-full"
+                      src="./c2-assets/onion.png"
+                      alt=""
+                    />
+                  </div>
+                  <!-- text -->
+                  <div>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <h2 class="text-sm ml-3">4.5</h2>
+                    </div>
+                    <h1 class="text-xl font-bold">Onion 1Kg</h1>
+                    <p>$39.99</p>
+                  </div>
+                </div>
+                <!-- card-2 -->
+                <div
+                  class="flex p-4 flex-row items-center gap-4 card bg-white w-full shadow-xl"
+                >
+                  <!-- images -->
+                  <div>
+                    <img
+                      class="bg-gray-100 shadow-xl w-full"
+                      src="./c2-assets/tomato.png"
+                      alt=""
+                    />
+                  </div>
+                  <!-- text -->
+                  <div>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <h2 class="text-sm ml-3">4.5</h2>
+                    </div>
+                    <h1 class="text-xl font-bold">Tomato 500 g</h1>
+                    <p>$39.99</p>
+                  </div>
+                </div>
+                <!-- card-3 -->
+                <div
+                  class="flex p-4 flex-row items-center gap-4 card bg-white w-full shadow-xl"
+                >
+                  <!-- images -->
+                  <div>
+                    <img
+                      class="bg-gray-100 shadow-xl w-full"
+                      src="./c2-assets/potato.png"
+                      alt=""
+                    />
+                  </div>
+                  <!-- text -->
+                  <div>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <h2 class="text-sm ml-3">4.5</h2>
+                    </div>
+                    <h1 class="text-xl font-bold">potato 1Kg</h1>
+                    <p>$39.99</p>
+                  </div>
+                </div>
+                <!-- card-4 -->
+                <div
+                  class="flex p-4 flex-row items-center gap-4 card bg-white w-full shadow-xl"
+                >
+                  <!-- images -->
+                  <div>
+                    <img
+                      class="bg-gray-100 shadow-xl w-full"
+                      src="./c2-assets/tomato.png"
+                      alt=""
+                    />
+                  </div>
+                  <!-- text -->
+                  <div>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <h2 class="text-sm ml-3">4.5</h2>
+                    </div>
+                    <h1 class="text-xl font-bold">Tomato 500 g</h1>
+                    <p>$39.99</p>
+                  </div>
+                </div>
+                <!-- card-5 -->
+                <div
+                  class="flex p-4 flex-row items-center gap-4 card bg-white w-full shadow-xl"
+                >
+                  <!-- images -->
+                  <div>
+                    <img
+                      class="bg-gray-100 shadow-xl w-full"
+                      src="./c2-assets/onion.png"
+                      alt=""
+                    />
+                  </div>
+                  <!-- text -->
+                  <div>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <h2 class="text-sm ml-3">4.5</h2>
+                    </div>
+                    <h1 class="text-xl font-bold">Onion 1Kg</h1>
+                    <p>$39.99</p>
+                  </div>
+                </div>
+                <!-- card-6 -->
+                <div
+                  class="flex p-4 flex-row items-center gap-4 card bg-white w-full shadow-xl"
+                >
+                  <!-- images -->
+                  <div>
+                    <img
+                      class="bg-gray-100 shadow-xl w-full"
+                      src="./c2-assets/tomato.png"
+                      alt=""
+                    />
+                  </div>
+                  <!-- text -->
+                  <div>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <h2 class="text-sm ml-3">4.5</h2>
+                    </div>
+                    <h1 class="text-xl font-bold">Tomato 500 g</h1>
+                    <p>$39.99</p>
+                  </div>
+                </div>
+                <!-- card-7 -->
+                <div
+                  class="flex p-4 flex-row items-center gap-4 card bg-white w-full shadow-xl"
+                >
+                  <!-- images -->
+                  <div>
+                    <img
+                      class="bg-gray-100 shadow-xl w-full"
+                      src="./c2-assets/onion.png"
+                      alt=""
+                    />
+                  </div>
+                  <!-- text -->
+                  <div>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <h2 class="text-sm ml-3">4.5</h2>
+                    </div>
+                    <h1 class="text-xl font-bold">Onion 1Kg</h1>
+                    <p>$39.99</p>
+                  </div>
+                </div>
+                <!-- card-8 -->
+                <div
+                  class="flex p-4 flex-row items-center gap-4 card bg-white w-full shadow-xl"
+                >
+                  <!-- images -->
+                  <div>
+                    <img
+                      class="bg-gray-100 shadow-xl w-full"
+                      src="./c2-assets/tomato.png"
+                      alt=""
+                    />
+                  </div>
+                  <!-- text -->
+                  <div>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <h2 class="text-sm ml-3">4.5</h2>
+                    </div>
+                    <h1 class="text-xl font-bold">Tomato 500 g</h1>
+                    <p>$39.99</p>
+                  </div>
+                </div>
+                <!-- card-9 -->
+                <div
+                  class="flex p-4 flex-row items-center gap-4 card bg-white w-full shadow-xl"
+                >
+                  <!-- images -->
+                  <div>
+                    <img
+                      class="bg-gray-100 shadow-xl w-full"
+                      src="./c2-assets/potato.png"
+                      alt=""
+                    />
+                  </div>
+                  <!-- text -->
+                  <div>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <h2 class="text-sm ml-3">4.5</h2>
+                    </div>
+                    <h1 class="text-xl font-bold">potato 1Kg</h1>
+                    <p>$39.99</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
