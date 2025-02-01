@@ -75,6 +75,12 @@
         position: relative;
         animation: animation 5s ease-in-out 1s infinite alternate;
       }
+      .nine {
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+      }
     </style>
   </head>
   <body class="sora">
@@ -638,9 +644,9 @@
       </section>
     </main>
     <!-- footer-section -->
-    <footer class="container mx-auto relative">
-      <section class="absolute left-30 -top-40">
-        <div class="card bg-white shadow-lg lg:w-4xl mx-auto">
+    <footer class="relative container mx-auto">
+      <section class="absolute nine">
+        <div class="card bg-white shadow-lg">
           <div class="hero-content flex-col lg:flex-row">
             <div class="text-center lg:text-left">
               <img src="./c2-assets/vegetable-busket.png" alt="" />
